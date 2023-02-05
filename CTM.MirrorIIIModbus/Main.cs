@@ -38,7 +38,7 @@ namespace CTM.MirrorIIIModbus
             if (_modbusMaster == null || _modbusMaster.Connected() == false)
                 _modbusMaster = new EasyModbusRTU(combxPorts.SelectedItem.ToString());
             timer1.Start();
-
+            LeerSalida();
             btnConectar.Enabled = false;
             btnDesconectar.Enabled = true;
             btnConectar.BackColor = Color.Green;
@@ -99,6 +99,12 @@ namespace CTM.MirrorIIIModbus
         {
 
             _modbusMaster.WriteSingleRegister(3, registro, valor);
+        }
+
+        private void LeerSalida()
+        {
+
+            _modbusMaster.ReadHoldingRegisters(1,1, 15);
         }
 
         private void btnRele1_Click(object sender, EventArgs e)
