@@ -3,7 +3,7 @@ using Serilog;
 using System;
 using System.Reflection;
 
-namespace ModbusProtocol
+namespace CTM.ModbusProtocol
 {
     public class ParseResponse
     {

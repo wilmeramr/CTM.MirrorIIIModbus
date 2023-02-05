@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EasyModbus">
+      <HintPath>..\packages\EasyModbusTCP.5.6.0\lib\net40\EasyModbus.dll</HintPath>
+    </Reference>
     <Reference Include="MfgControl.AdvancedHMI.Controls">
       <HintPath>..\AdvancedHMIControls\support\MfgControl.AdvancedHMI.Controls.dll</HintPath>
     </Reference>
@@ -99,13 +102,13 @@
       <Project>{13a180b0-1183-4cb7-ac14-bf98320a30e4}</Project>
       <Name>AdvancedHMI</Name>
     </ProjectReference>
-    <ProjectReference Include="..\EasyModbus\EasyModbus.csproj">
-      <Project>{B010C2CE-5210-491D-A157-BFC9447F9D21}</Project>
-      <Name>EasyModbus</Name>
+    <ProjectReference Include="..\CTM.EasyModbus\CTM.EasyModbus.csproj">
+      <Project>{b010c2ce-5210-491d-a157-bfc9447f9d21}</Project>
+      <Name>CTM.EasyModbus</Name>
     </ProjectReference>
-    <ProjectReference Include="..\ModbusProtocol\ModbusProtocol.csproj">
+    <ProjectReference Include="..\CTM.ModbusProtocol\CTM.ModbusProtocol.csproj">
       <Project>{01361573-0169-4669-bc0f-434f5b154a69}</Project>
-      <Name>ModbusProtocol</Name>
+      <Name>CTM.ModbusProtocol</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

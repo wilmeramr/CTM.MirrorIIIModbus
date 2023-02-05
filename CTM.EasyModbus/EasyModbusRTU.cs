@@ -1,8 +1,9 @@
-﻿using Serilog;
+﻿using EasyModbus;
+using Serilog;
 using System;
 using System.IO.Ports;
 
-namespace EasyModbus
+namespace CTM.EasyModbus
 {
     public class EasyModbusRTU
     {

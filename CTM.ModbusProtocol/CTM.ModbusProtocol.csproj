@@ -7,8 +7,8 @@
     <ProjectGuid>{01361573-0169-4669-BC0F-434F5B154A69}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ModbusProtocol</RootNamespace>
-    <AssemblyName>ModbusProtocol</AssemblyName>
+    <RootNamespace>CTM.ModbusProtocol</RootNamespace>
+    <AssemblyName>CTM.ModbusProtocol</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

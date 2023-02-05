@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.IO.Ports;
 using System.Linq;
 
-namespace ModbusProtocol
+namespace CTM.ModbusProtocol
 {
     public class SerialRTU
     {

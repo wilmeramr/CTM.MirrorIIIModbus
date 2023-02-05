@@ -11,9 +11,9 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdvancedHMIControls", "Adva
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "AdvancedHMIDrivers", "AdvancedHMIDrivers\AdvancedHMIDrivers.vbproj", "{1C35364C-105A-4537-9CA1-0FB0DC656944}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyModbus", "EasyModbus\EasyModbus.csproj", "{B010C2CE-5210-491D-A157-BFC9447F9D21}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.EasyModbus", "CTM.EasyModbus\CTM.EasyModbus.csproj", "{B010C2CE-5210-491D-A157-BFC9447F9D21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusProtocol", "ModbusProtocol\ModbusProtocol.csproj", "{01361573-0169-4669-BC0F-434F5B154A69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTM.ModbusProtocol", "CTM.ModbusProtocol\CTM.ModbusProtocol.csproj", "{01361573-0169-4669-BC0F-434F5B154A69}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

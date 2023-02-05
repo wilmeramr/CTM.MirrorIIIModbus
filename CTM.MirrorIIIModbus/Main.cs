@@ -1,11 +1,8 @@
-﻿using AdvancedHMIControls;
-using EasyModbus;
+﻿using CTM.EasyModbus;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
 using static MfgControl.AdvancedHMI.Controls.PushButton;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement.ToolBar;
 
 namespace CTM.MirrorIIIModbus
 {
@@ -87,7 +84,7 @@ namespace CTM.MirrorIIIModbus
                 motor2.Value = !Valor[1];
                 motor3.Value = !Valor[2];
                 motor4.Value = !Valor[3];
-           
+
             }
             consultaHabilitada = true;
 
@@ -104,7 +101,7 @@ namespace CTM.MirrorIIIModbus
         private void LeerSalida()
         {
 
-            _modbusMaster.ReadHoldingRegisters(1,1, 15);
+            _modbusMaster.ReadHoldingRegisters(1, 1, 15);
         }
 
         private void btnRele1_Click(object sender, EventArgs e)
